@@ -1,0 +1,1132 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D0AB62B19CB8B3C8059886 /* PetTimelineProviderLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC061F86FDA6556557E411D /* PetTimelineProviderLogic.swift */; };
+		03DC99347E2AAA817675615D /* BackgroundRefreshScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E9F046FD3B6A55CB00E5B0 /* BackgroundRefreshScheduler.swift */; };
+		05E32CB9C41419304AAE4DBD /* PetStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A04BB003BCB47FD0FAD7F4 /* PetStoreTests.swift */; };
+		05F9554D58E1503742B1B04F /* AppGroupConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D18E304833E0B70E2A502 /* AppGroupConfig.swift */; };
+		07FF7ADE80797DF00A8330BB /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630304574F828BEF9D616D /* ShopItem.swift */; };
+		089337EC64EFFEB053C53D7B /* CharacterRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCEA457BAF5ED181EFB8962 /* CharacterRegistry.swift */; };
+		08E9B05126A3C76FAD796469 /* ActiveEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8966C541482BDE1FFFDC6C7 /* ActiveEffect.swift */; };
+		0DB995510EFC57F19AA539AC /* ConnectivityMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D6562C045E95460C1C95C /* ConnectivityMessage.swift */; };
+		0EA1099C6F0680A086F68121 /* ComplicationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7806CBC696D37360A6325F19 /* ComplicationViews.swift */; };
+		0FEDD007B83A1E6FECF4918B /* DiscoveryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83595271387CE0A2399662EE /* DiscoveryStore.swift */; };
+		10AF008D86A88F1BFF95FF1D /* BackgroundRefreshScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E9F046FD3B6A55CB00E5B0 /* BackgroundRefreshScheduler.swift */; };
+		111E1E3F5B64506EA5572640 /* ActiveEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8966C541482BDE1FFFDC6C7 /* ActiveEffect.swift */; };
+		116D5501E25B0AFCE5EFEE3A /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1CCA74C12F64091E6913D /* TimeManager.swift */; };
+		116FF8E038C1B8A8C76372F2 /* EvolutionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F472481E65BBE39B53CEB6 /* EvolutionEngine.swift */; };
+		118E8EE31845A03A8DCE33B4 /* CharacterRegistryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD29EB1905E49F505DEA783 /* CharacterRegistryTests.swift */; };
+		131257E80904310CAC7A6C9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9DC0A05C268D4A89800915 /* ContentView.swift */; };
+		159F7580CA9977E205E2D536 /* PetStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977BFFB038C1DE35B6887248 /* PetStats.swift */; };
+		16C380F4DEA858CA0B133230 /* PetLifecycleE2ETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79496D8F4282F98A60F6B96C /* PetLifecycleE2ETests.swift */; };
+		176AC795CE589A0A544BEA21 /* PhoneConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74240D9CCA27C81C8108D195 /* PhoneConnectivityManager.swift */; };
+		1A01C4601F6DFE13C68EBA69 /* HapticPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275989F102FC81663782B360 /* HapticPatterns.swift */; };
+		1EDB8BB18DB0AF8224D0BCA8 /* PetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AE7468C72C22EC9083D809 /* PetSnapshot.swift */; };
+		204CF81363D2B749A81CFDC1 /* GameEngineEvolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2633FC17DD430FF8213D4 /* GameEngineEvolutionTests.swift */; };
+		2095C3FA6628D7D3509B959B /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E11BDD7BA13F31AFFA0D /* SettingsStore.swift */; };
+		20E56B2A7B1A2F65158CE4DC /* ConnectivityMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D6562C045E95460C1C95C /* ConnectivityMessage.swift */; };
+		255D95DE589FEBB71087E06D /* TabRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67211925623FBEB8F415B679 /* TabRootView.swift */; };
+		25CEC62A0AA0793907B09207 /* HiddenStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4429EA4A553A3A9EE0B689D4 /* HiddenStats.swift */; };
+		27813068E2033084D7230F22 /* TimeManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C423E2E404F6FA5E2DACB6 /* TimeManagerTests.swift */; };
+		288666E5FE35284044BD0CBD /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A762017302B2F6EDF637FE /* CharacterDetailView.swift */; };
+		2924CBEC250C1820CF75FE29 /* CharacterRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCEA457BAF5ED181EFB8962 /* CharacterRegistry.swift */; };
+		2B9CF1593A72EA7AD2DE5EEF /* PetCloudSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A803BD144997E2AB513A /* PetCloudSerializer.swift */; };
+		324FB917188AF5E2D229B02B /* AppGroupConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D18E304833E0B70E2A502 /* AppGroupConfig.swift */; };
+		33FE2913C23E686F83509EB9 /* ConnectivityMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D6562C045E95460C1C95C /* ConnectivityMessage.swift */; };
+		39A4F5EB55893E2F52A0CC57 /* EvolutionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F472481E65BBE39B53CEB6 /* EvolutionEngine.swift */; };
+		3A902CA216565A2972E686A5 /* PetStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD43D75951F416CFE5EAA7 /* PetStatsTests.swift */; };
+		3EA06E6F38CBBA9C210BC276 /* JumpGameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC281868242E6794AE9783 /* JumpGameState.swift */; };
+		3F1E2CEFD4DDBB4D26731AE9 /* SpriteMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B252E3DCB41DA2E688270C /* SpriteMapping.swift */; };
+		3F4EA652D0ED381711A6C34F /* CareAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2B0982AD2B4FEC0F3F09C /* CareAction.swift */; };
+		3FABBBAB8B3CBED7AB83A179 /* ActiveEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8966C541482BDE1FFFDC6C7 /* ActiveEffect.swift */; };
+		3FE4B8D08BC936A11EDB5E72 /* JumpGameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC281868242E6794AE9783 /* JumpGameState.swift */; };
+		3FF456D1B923B646894681BF /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2043F10D7B6D2E950CBDCDA /* SoundManager.swift */; };
+		4255EE45C31BD8D602248393 /* JumpGameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC281868242E6794AE9783 /* JumpGameState.swift */; };
+		431E2B53763E305FE44CB309 /* PetTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00281954F71C4D899AA6AC08 /* PetTimelineProvider.swift */; };
+		435932CF7D53A19FE36EC6CC /* DiscoveryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83595271387CE0A2399662EE /* DiscoveryStore.swift */; };
+		45A88492E0932D89E4112BB3 /* EvolutionCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED2054A62496D83C7B6221 /* EvolutionCondition.swift */; };
+		45BE896D28D754C1801FCAB6 /* PetSpriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB402945B847CD70446144 /* PetSpriteView.swift */; };
+		4716B8B07568AA896667C7CB /* DiscoveryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83595271387CE0A2399662EE /* DiscoveryStore.swift */; };
+		47BFAD2EA1A1CC5AE775E18C /* MiniGameTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C00FE1C66553126C8A5580C /* MiniGameTypes.swift */; };
+		49FE5EF4A6B6A03426D4E317 /* JumpGameStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274A771CCAF47297B99F463 /* JumpGameStateTests.swift */; };
+		4ACFF598B8ACDA9AC0EC98B7 /* LifeStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACC1F1007B4E5B04A8A16 /* LifeStage.swift */; };
+		4C2906CE799C75E8991D821E /* GameConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145F7C5DE8A031D1FA595C4B /* GameConfig.swift */; };
+		4C60E9A1C1FC55C2124C556E /* HiddenStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4429EA4A553A3A9EE0B689D4 /* HiddenStats.swift */; };
+		4C99CB888314DAA035E623BA /* PetTimelineProviderLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC061F86FDA6556557E411D /* PetTimelineProviderLogic.swift */; };
+		4E63EF388B621A2C8D582A13 /* DiscoveryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83595271387CE0A2399662EE /* DiscoveryStore.swift */; };
+		52D7993F39A1B08AD7A1B034 /* CloudKitSyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F2B9D43A3CC3BB2931EEC /* CloudKitSyncManager.swift */; };
+		544C6F8D315EFEAF675012E3 /* ShopStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E10E094EB9FE4A9EEC1AA /* ShopStore.swift */; };
+		568CE2CFEDB1EBB9CCF5BB9D /* JumpGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B5E8466F487C83819B6500 /* JumpGameView.swift */; };
+		5891F425038DB04877E751EF /* CharacterRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCEA457BAF5ED181EFB8962 /* CharacterRegistry.swift */; };
+		59A5E3352B45678418B8B3BA /* CareAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2B0982AD2B4FEC0F3F09C /* CareAction.swift */; };
+		5A1EE13D102C58630AEF8379 /* PetTimelineProviderLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC061F86FDA6556557E411D /* PetTimelineProviderLogic.swift */; };
+		5E0799D04B9C7D6A7AE57F88 /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C94A741DD59AB711072860 /* WatchConnectivityManager.swift */; };
+		5FA36624659258947D52A00C /* MiniGameTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C00FE1C66553126C8A5580C /* MiniGameTypes.swift */; };
+		61923B682353EA5F8F196644 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D489DE102CD63F9CD03D351 /* GameManager.swift */; };
+		62C43BD70C0943AFA7463F80 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEAE7914EBCB93E3C30871 /* NotificationManager.swift */; };
+		64414F6A700627E7E9D4619B /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E11BDD7BA13F31AFFA0D /* SettingsStore.swift */; };
+		66DEEC341B043AC3CEA5CBB4 /* GameEnginePerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F434F2070A9CCAE6620F47 /* GameEnginePerformanceTests.swift */; };
+		67104EE3B443E7F6CF7392D6 /* MiniGameTypesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BB87FDA3F946461A4B9E0 /* MiniGameTypesTests.swift */; };
+		684FB51CF78DFF9BCD1AAE5A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209F1C92BC31ADB85F5E3A4B /* MenuView.swift */; };
+		6C683A9D7F9F4B2AEDF188A2 /* PetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C322F3C78F686B3399631033 /* PetStore.swift */; };
+		6CD076B458BABE6C0AB369A4 /* LifeStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACC1F1007B4E5B04A8A16 /* LifeStage.swift */; };
+		6EE666A866B85A7AB9E5F304 /* LifeStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACC1F1007B4E5B04A8A16 /* LifeStage.swift */; };
+		7616B0215DE719925F824484 /* ShopStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E10E094EB9FE4A9EEC1AA /* ShopStore.swift */; };
+		768A93B2ADBBA1B45FB94739 /* PetCloudSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A803BD144997E2AB513A /* PetCloudSerializer.swift */; };
+		7B96F56FB21BE2B6B9353E50 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96ECB6C7870211276AEFB2 /* GameEngine.swift */; };
+		7D4B28B823D53CB20B553611 /* PetTimelineProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D0124E0892592DA10B89AC /* PetTimelineProviderTests.swift */; };
+		7E734ECF99250AEAA3D8FB34 /* FamilyTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F25691A9B1007EC623B7CDB /* FamilyTreeView.swift */; };
+		7E93B5D34C80D9A192FE528A /* DiscoveryStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B8DB967381AEDDFCCA33F /* DiscoveryStoreTests.swift */; };
+		8090CCA48A363F7ADB509BC2 /* BackgroundRefreshScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E9F046FD3B6A55CB00E5B0 /* BackgroundRefreshScheduler.swift */; };
+		809B33291B830DB3B74CCF5E /* PetCloudSerializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101AA10C9771FCF2F80C0BF /* PetCloudSerializerTests.swift */; };
+		84E227307FFF77D1A1D47C03 /* ShopItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8991C7F58E80992356BD26F0 /* ShopItemTests.swift */; };
+		86D7D1E2469B8151B7E1036E /* CloudKitSyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F2B9D43A3CC3BB2931EEC /* CloudKitSyncManager.swift */; };
+		872C39C8DC84464001DD72C6 /* PetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C322F3C78F686B3399631033 /* PetStore.swift */; };
+		882BF37A009A63B7A51B5E59 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630304574F828BEF9D616D /* ShopItem.swift */; };
+		8A746F2904983E127FF44599 /* PetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AE7468C72C22EC9083D809 /* PetSnapshot.swift */; };
+		8C182C49A72AE0EEB3E9AA6D /* CloudKitSyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F2B9D43A3CC3BB2931EEC /* CloudKitSyncManager.swift */; };
+		8C70A081D0C24D979F3C43A7 /* PetModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3839BD0A7F11DF36F3A88E3A /* PetModelTests.swift */; };
+		8CEA06BDE349B1D20BFB7ADE /* NotificationManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760EA37C6CC713BA96DD28DF /* NotificationManagerTests.swift */; };
+		8E87AD77FA4F408649FBC618 /* HapticPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275989F102FC81663782B360 /* HapticPatterns.swift */; };
+		8EB95346C29A0F06BE40B161 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEAE7914EBCB93E3C30871 /* NotificationManager.swift */; };
+		8FDFCF5447CE3381C9EF5318 /* ConnectivityMessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0B5C9ADABA72F24FF9DC9E /* ConnectivityMessageTests.swift */; };
+		904F776B01967BB3AB569E00 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792D212ABDC23F579850C2F5 /* StatsView.swift */; };
+		90C6FF23186ED17A54D696F7 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96ECB6C7870211276AEFB2 /* GameEngine.swift */; };
+		91D641315167D05B43429C6A /* PetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C322F3C78F686B3399631033 /* PetStore.swift */; };
+		929C322FED26C27B9F7FF78B /* GameConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145F7C5DE8A031D1FA595C4B /* GameConfig.swift */; };
+		9356585B7D373DD418FB81F6 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E206E11356890AD5005DC1 /* Pet.swift */; };
+		93940A2F4AB8BBBA74CCB3C1 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEAE7914EBCB93E3C30871 /* NotificationManager.swift */; };
+		93AE640B5EDB91EB3ECD1097 /* ActiveEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8966C541482BDE1FFFDC6C7 /* ActiveEffect.swift */; };
+		93E6A294293C837195EEBBFD /* HapticPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275989F102FC81663782B360 /* HapticPatterns.swift */; };
+		9452110DC2968A43D55D9D77 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1CCA74C12F64091E6913D /* TimeManager.swift */; };
+		9553237A7B88CA3B08C94D06 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96ECB6C7870211276AEFB2 /* GameEngine.swift */; };
+		9797111EC99AF52B9C907928 /* GameEnginePauseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BEF6A0365DC2E8564C18E /* GameEnginePauseTests.swift */; };
+		98C78DFF1586BCDE3DAF448C /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C751018CB5AADEA0AC76DB2C /* ShopView.swift */; };
+		9A381F30D2C1DF97B9DF3DBB /* EkocciWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AEAABC79E67345C6BD58D7 /* EkocciWatchApp.swift */; };
+		9EDB8C880EB72A18DAD134A4 /* JumpGameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC281868242E6794AE9783 /* JumpGameState.swift */; };
+		A041A7C1826840E5B7438BCF /* EvolutionCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED2054A62496D83C7B6221 /* EvolutionCondition.swift */; };
+		A358B7D8BB55617D45165687 /* MiniGameTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C00FE1C66553126C8A5580C /* MiniGameTypes.swift */; };
+		A3D2A55ED77CDAB6C70E62D1 /* ShopStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E71914F962E034BEA21B68A /* ShopStoreTests.swift */; };
+		A7694F5949B9BC4C65B60387 /* GameEngineCareMissTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3A3DC711D09481706FCF7F /* GameEngineCareMissTests.swift */; };
+		A800740C96E203D4825233EA /* SpriteMappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0C5D84F94DA7B0B493C2C3 /* SpriteMappingTests.swift */; };
+		A9D1FD9C527D500A52E90AE3 /* GameConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145F7C5DE8A031D1FA595C4B /* GameConfig.swift */; };
+		A9E0D27B8564E995D8D3506E /* CharacterRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCEA457BAF5ED181EFB8962 /* CharacterRegistry.swift */; };
+		AA3F43AB3B3EB5C275F91576 /* CharacterDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CAB09AEBBF38C9B3628384 /* CharacterDefinition.swift */; };
+		AC99751297799CC2F7E8E760 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2043F10D7B6D2E950CBDCDA /* SoundManager.swift */; };
+		AE870DD6F565497EBE4CEC39 /* GameEngineDeathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C985F584B90BB157BA5D0A2F /* GameEngineDeathTests.swift */; };
+		AFC31ED9280608EB886484A3 /* MiniGameSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DA60BE7CA990AEE53D30F7 /* MiniGameSelectionView.swift */; };
+		B052C4530EAADEA4067D8E33 /* PetStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977BFFB038C1DE35B6887248 /* PetStats.swift */; };
+		B0943B1FD097E0E48DDFECD7 /* HiddenStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4429EA4A553A3A9EE0B689D4 /* HiddenStats.swift */; };
+		B1042CC9E299B96A762E3490 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEAE7914EBCB93E3C30871 /* NotificationManager.swift */; };
+		B1537003A14BCAC39F225D32 /* EvolutionCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED2054A62496D83C7B6221 /* EvolutionCondition.swift */; };
+		B4FD60A59AE12A02177A640D /* LeftOrRightGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FE2E1736D828B4D3966B6C /* LeftOrRightGameView.swift */; };
+		B50B125681879C98DDE5CCA8 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E11BDD7BA13F31AFFA0D /* SettingsStore.swift */; };
+		B6D38DD5805C97DCA5ECB159 /* PetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AE7468C72C22EC9083D809 /* PetSnapshot.swift */; };
+		B85BBA1EAF6A75395A2FE745 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E206E11356890AD5005DC1 /* Pet.swift */; };
+		B871CD8E76D9F5F8147E2204 /* SettingsStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2ED62FBEF297E1C8146D1 /* SettingsStoreTests.swift */; };
+		B8E199C0B4415F7FA64094B7 /* PetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AE7468C72C22EC9083D809 /* PetSnapshot.swift */; };
+		BA2F5CADC89B9F54A4870F7E /* SpriteMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B252E3DCB41DA2E688270C /* SpriteMapping.swift */; };
+		BB3D3DB5706B92990413B410 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E206E11356890AD5005DC1 /* Pet.swift */; };
+		BE57828BC118F2DA8FAFAD65 /* EvolutionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F472481E65BBE39B53CEB6 /* EvolutionEngine.swift */; };
+		C06C2ED97BE8F12FD1BF0385 /* GameConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145F7C5DE8A031D1FA595C4B /* GameConfig.swift */; };
+		C19956F815475EC88A296935 /* ShopStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E10E094EB9FE4A9EEC1AA /* ShopStore.swift */; };
+		C2F57F68292726C67B1C266B /* CharacterDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CAB09AEBBF38C9B3628384 /* CharacterDefinition.swift */; };
+		C3821EF5C916C3990BD91E70 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630304574F828BEF9D616D /* ShopItem.swift */; };
+		C4843CCA474471E946FD9CF7 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2043F10D7B6D2E950CBDCDA /* SoundManager.swift */; };
+		C6BD03F4B36B02FFDFB78B6C /* ShopStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E10E094EB9FE4A9EEC1AA /* ShopStore.swift */; };
+		C7736B97259C6CBD820DAB03 /* BackgroundRefreshScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E9F046FD3B6A55CB00E5B0 /* BackgroundRefreshScheduler.swift */; };
+		CA696D9B2DA00F16358E1538 /* EkocciWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F042BADF6371AE4AF580AF2 /* EkocciWidget.swift */; };
+		CD3D6A8FDF27525ADD9F3E49 /* HapticPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275989F102FC81663782B360 /* HapticPatterns.swift */; };
+		CDEAB9269824EB7E9E68AF1D /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA188704DA1761B5DCF8A0C /* DashboardView.swift */; };
+		D008EBBFC81C726223B4237C /* GameEngineDecayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632A9CABFD9AF00615DCC39B /* GameEngineDecayTests.swift */; };
+		D16A4DA3C95669BC799C5C6B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF794EB921000E026331117B /* SettingsView.swift */; };
+		D1A59B072B3963B2EE3B3015 /* CareAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2B0982AD2B4FEC0F3F09C /* CareAction.swift */; };
+		D2F377A658B5B61BE0A58901 /* LifeStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACC1F1007B4E5B04A8A16 /* LifeStage.swift */; };
+		D37D0102007B1818FF8199B8 /* SpriteMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B252E3DCB41DA2E688270C /* SpriteMapping.swift */; };
+		D423C2F24D0C3D5D91B8A177 /* HiddenStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4429EA4A553A3A9EE0B689D4 /* HiddenStats.swift */; };
+		D5321D50003C466FF4A526E1 /* PetTimelineProviderLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC061F86FDA6556557E411D /* PetTimelineProviderLogic.swift */; };
+		D53805A55F1EEB1B39E014CC /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E206E11356890AD5005DC1 /* Pet.swift */; };
+		D85CA0BFD3CA0A8CD106762C /* PetStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977BFFB038C1DE35B6887248 /* PetStats.swift */; };
+		D868227BD34BE2745169F1C6 /* EvolutionCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ED2054A62496D83C7B6221 /* EvolutionCondition.swift */; };
+		D8B8AFA25D86C24794452D8C /* EvolutionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F472481E65BBE39B53CEB6 /* EvolutionEngine.swift */; };
+		D8E8B0BE8766886FE5D47DC5 /* PetCloudSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A803BD144997E2AB513A /* PetCloudSerializer.swift */; };
+		D91305C213D689DFAD987922 /* PetStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977BFFB038C1DE35B6887248 /* PetStats.swift */; };
+		DA93D247B6F7EBB7969B6EB2 /* SpriteMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B252E3DCB41DA2E688270C /* SpriteMapping.swift */; };
+		DD38897BDB6236645BF72D58 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1CCA74C12F64091E6913D /* TimeManager.swift */; };
+		DE5B0B5BE8A329BC2DAAA4B8 /* EkocciPhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525BCE1D21879F06D1F0D4D /* EkocciPhoneApp.swift */; };
+		DE901AC5287DBD526D7B19D2 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1CCA74C12F64091E6913D /* TimeManager.swift */; };
+		E47B94FD587A8293B9DF59CE /* AppGroupConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D18E304833E0B70E2A502 /* AppGroupConfig.swift */; };
+		E5501D07E121F07AE77C1616 /* PhoneGameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589DFE3CFA8EED2E960567A /* PhoneGameManager.swift */; };
+		E5B9116ABD7E979E1A499F17 /* HighOrLowGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE64EF632F677B5950C6E8C /* HighOrLowGameView.swift */; };
+		E82E380FB86D3D6E1029A94E /* MiniGameTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C00FE1C66553126C8A5580C /* MiniGameTypes.swift */; };
+		E8B6CB998166426DD890B0AB /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E11BDD7BA13F31AFFA0D /* SettingsStore.swift */; };
+		E99012074FD67C58B9007A8B /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3630304574F828BEF9D616D /* ShopItem.swift */; };
+		EA778ADC25F052302C221914 /* CharacterDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CAB09AEBBF38C9B3628384 /* CharacterDefinition.swift */; };
+		EB02DA8DE683AB1A4F9BC971 /* CloudKitSyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F2B9D43A3CC3BB2931EEC /* CloudKitSyncManager.swift */; };
+		EB174FE1515FBC60A2ECF7A0 /* ConnectivityMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D6562C045E95460C1C95C /* ConnectivityMessage.swift */; };
+		EBB34AD545B986F6CE69D459 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96ECB6C7870211276AEFB2 /* GameEngine.swift */; };
+		EBE3802BE4ACA8A88E2FAC97 /* MainPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905762FB1C205583AC3CE92 /* MainPetView.swift */; };
+		EDCC5D05CB6588BE1868229F /* PetSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B69AFB71CF4FC645492A03F /* PetSnapshotTests.swift */; };
+		EDF99D865D539139B530FA41 /* HiddenStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42177505CEFB6F69CF50CA0C /* HiddenStatsTests.swift */; };
+		EF8EE282288E2346F73AED75 /* AppGroupConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D18E304833E0B70E2A502 /* AppGroupConfig.swift */; };
+		F19D44287EFE84B15BAED8D3 /* CharacterDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CAB09AEBBF38C9B3628384 /* CharacterDefinition.swift */; };
+		F205C7C10EAF0B7EB9C7588C /* DeathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94743A561A75330C3D27FB4 /* DeathView.swift */; };
+		F2A8F1D850B1044AE6A39552 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2043F10D7B6D2E950CBDCDA /* SoundManager.swift */; };
+		F305EC9AAA85CE89FE3F61EB /* PetCloudSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A803BD144997E2AB513A /* PetCloudSerializer.swift */; };
+		F3EA18E3170E3FF61489107A /* CareAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2B0982AD2B4FEC0F3F09C /* CareAction.swift */; };
+		F63BFB8F17A479D4154AD1F2 /* EncyclopediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DE9C7088785B435D78036F /* EncyclopediaView.swift */; };
+		FB53A1956243EC948B1F5643 /* PetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C322F3C78F686B3399631033 /* PetStore.swift */; };
+		FDD758233F9DD2409E05E8E9 /* GameEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8171C59ADCB2A6112E6D3022 /* GameEngineTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A39CEDEDC0D7C2DD37A81467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B79ED2D549D65644F806EF22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4349593A56D4FC87CA06F3E;
+			remoteInfo = EkocciWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00281954F71C4D899AA6AC08 /* PetTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTimelineProvider.swift; sourceTree = "<group>"; };
+		01DE9C7088785B435D78036F /* EncyclopediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncyclopediaView.swift; sourceTree = "<group>"; };
+		01E206E11356890AD5005DC1 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		04C423E2E404F6FA5E2DACB6 /* TimeManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManagerTests.swift; sourceTree = "<group>"; };
+		0B4ACC1F1007B4E5B04A8A16 /* LifeStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeStage.swift; sourceTree = "<group>"; };
+		0C00FE1C66553126C8A5580C /* MiniGameTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGameTypes.swift; sourceTree = "<group>"; };
+		0F25691A9B1007EC623B7CDB /* FamilyTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyTreeView.swift; sourceTree = "<group>"; };
+		145F7C5DE8A031D1FA595C4B /* GameConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfig.swift; sourceTree = "<group>"; };
+		1A8B26F381DEF66BDF7C00F2 /* EkocciWatchWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EkocciWatchWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4D6562C045E95460C1C95C /* ConnectivityMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityMessage.swift; sourceTree = "<group>"; };
+		1CCEA457BAF5ED181EFB8962 /* CharacterRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRegistry.swift; sourceTree = "<group>"; };
+		209F1C92BC31ADB85F5E3A4B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		20DA60BE7CA990AEE53D30F7 /* MiniGameSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGameSelectionView.swift; sourceTree = "<group>"; };
+		22B2B0982AD2B4FEC0F3F09C /* CareAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareAction.swift; sourceTree = "<group>"; };
+		275989F102FC81663782B360 /* HapticPatterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticPatterns.swift; sourceTree = "<group>"; };
+		2AD29EB1905E49F505DEA783 /* CharacterRegistryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRegistryTests.swift; sourceTree = "<group>"; };
+		2B69AFB71CF4FC645492A03F /* PetSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSnapshotTests.swift; sourceTree = "<group>"; };
+		337BB87FDA3F946461A4B9E0 /* MiniGameTypesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGameTypesTests.swift; sourceTree = "<group>"; };
+		34E9F046FD3B6A55CB00E5B0 /* BackgroundRefreshScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRefreshScheduler.swift; sourceTree = "<group>"; };
+		3839BD0A7F11DF36F3A88E3A /* PetModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetModelTests.swift; sourceTree = "<group>"; };
+		3E3A3DC711D09481706FCF7F /* GameEngineCareMissTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngineCareMissTests.swift; sourceTree = "<group>"; };
+		40B5E8466F487C83819B6500 /* JumpGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGameView.swift; sourceTree = "<group>"; };
+		42177505CEFB6F69CF50CA0C /* HiddenStatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenStatsTests.swift; sourceTree = "<group>"; };
+		4429EA4A553A3A9EE0B689D4 /* HiddenStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenStats.swift; sourceTree = "<group>"; };
+		46B252E3DCB41DA2E688270C /* SpriteMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteMapping.swift; sourceTree = "<group>"; };
+		513E10E094EB9FE4A9EEC1AA /* ShopStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopStore.swift; sourceTree = "<group>"; };
+		5525BCE1D21879F06D1F0D4D /* EkocciPhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkocciPhoneApp.swift; sourceTree = "<group>"; };
+		5594A803BD144997E2AB513A /* PetCloudSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCloudSerializer.swift; sourceTree = "<group>"; };
+		55FE2E1736D828B4D3966B6C /* LeftOrRightGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftOrRightGameView.swift; sourceTree = "<group>"; };
+		58CD43D75951F416CFE5EAA7 /* PetStatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStatsTests.swift; sourceTree = "<group>"; };
+		632A9CABFD9AF00615DCC39B /* GameEngineDecayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngineDecayTests.swift; sourceTree = "<group>"; };
+		67211925623FBEB8F415B679 /* TabRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRootView.swift; sourceTree = "<group>"; };
+		70AEAABC79E67345C6BD58D7 /* EkocciWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkocciWatchApp.swift; sourceTree = "<group>"; };
+		74240D9CCA27C81C8108D195 /* PhoneConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneConnectivityManager.swift; sourceTree = "<group>"; };
+		760EA37C6CC713BA96DD28DF /* NotificationManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManagerTests.swift; sourceTree = "<group>"; };
+		770E167276FC9CB41CC35635 /* EkocciTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = EkocciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7806CBC696D37360A6325F19 /* ComplicationViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationViews.swift; sourceTree = "<group>"; };
+		792D212ABDC23F579850C2F5 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		79496D8F4282F98A60F6B96C /* PetLifecycleE2ETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetLifecycleE2ETests.swift; sourceTree = "<group>"; };
+		7CCC281868242E6794AE9783 /* JumpGameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGameState.swift; sourceTree = "<group>"; };
+		7D489DE102CD63F9CD03D351 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		7E71914F962E034BEA21B68A /* ShopStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopStoreTests.swift; sourceTree = "<group>"; };
+		8171C59ADCB2A6112E6D3022 /* GameEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngineTests.swift; sourceTree = "<group>"; };
+		81C94A741DD59AB711072860 /* WatchConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityManager.swift; sourceTree = "<group>"; };
+		83595271387CE0A2399662EE /* DiscoveryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryStore.swift; sourceTree = "<group>"; };
+		88BEAE7914EBCB93E3C30871 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		88ED2054A62496D83C7B6221 /* EvolutionCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvolutionCondition.swift; sourceTree = "<group>"; };
+		8905762FB1C205583AC3CE92 /* MainPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPetView.swift; sourceTree = "<group>"; };
+		8991C7F58E80992356BD26F0 /* ShopItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItemTests.swift; sourceTree = "<group>"; };
+		8A0B5C9ADABA72F24FF9DC9E /* ConnectivityMessageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityMessageTests.swift; sourceTree = "<group>"; };
+		8BC061F86FDA6556557E411D /* PetTimelineProviderLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTimelineProviderLogic.swift; sourceTree = "<group>"; };
+		8C34E11BDD7BA13F31AFFA0D /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		8C9DC0A05C268D4A89800915 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CC1CCA74C12F64091E6913D /* TimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
+		8CE64EF632F677B5950C6E8C /* HighOrLowGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighOrLowGameView.swift; sourceTree = "<group>"; };
+		8F042BADF6371AE4AF580AF2 /* EkocciWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkocciWidget.swift; sourceTree = "<group>"; };
+		977BFFB038C1DE35B6887248 /* PetStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStats.swift; sourceTree = "<group>"; };
+		A1AE7468C72C22EC9083D809 /* PetSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSnapshot.swift; sourceTree = "<group>"; };
+		A4D0124E0892592DA10B89AC /* PetTimelineProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTimelineProviderTests.swift; sourceTree = "<group>"; };
+		A51BEF6A0365DC2E8564C18E /* GameEnginePauseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEnginePauseTests.swift; sourceTree = "<group>"; };
+		A8BB402945B847CD70446144 /* PetSpriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSpriteView.swift; sourceTree = "<group>"; };
+		A94743A561A75330C3D27FB4 /* DeathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathView.swift; sourceTree = "<group>"; };
+		B3630304574F828BEF9D616D /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		B3CAB09AEBBF38C9B3628384 /* CharacterDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDefinition.swift; sourceTree = "<group>"; };
+		B589DFE3CFA8EED2E960567A /* PhoneGameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneGameManager.swift; sourceTree = "<group>"; };
+		BAD2633FC17DD430FF8213D4 /* GameEngineEvolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngineEvolutionTests.swift; sourceTree = "<group>"; };
+		C101AA10C9771FCF2F80C0BF /* PetCloudSerializerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCloudSerializerTests.swift; sourceTree = "<group>"; };
+		C21B8DB967381AEDDFCCA33F /* DiscoveryStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryStoreTests.swift; sourceTree = "<group>"; };
+		C322F3C78F686B3399631033 /* PetStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStore.swift; sourceTree = "<group>"; };
+		C751018CB5AADEA0AC76DB2C /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		C985F584B90BB157BA5D0A2F /* GameEngineDeathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngineDeathTests.swift; sourceTree = "<group>"; };
+		CAA188704DA1761B5DCF8A0C /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		CC0C5D84F94DA7B0B493C2C3 /* SpriteMappingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteMappingTests.swift; sourceTree = "<group>"; };
+		CF7F2B9D43A3CC3BB2931EEC /* CloudKitSyncManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitSyncManager.swift; sourceTree = "<group>"; };
+		CFDF067D9DCFCDF82F90C539 /* EkocciPhone.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = EkocciPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C2ED62FBEF297E1C8146D1 /* SettingsStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStoreTests.swift; sourceTree = "<group>"; };
+		D2043F10D7B6D2E950CBDCDA /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		D2F472481E65BBE39B53CEB6 /* EvolutionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvolutionEngine.swift; sourceTree = "<group>"; };
+		DD1D18E304833E0B70E2A502 /* AppGroupConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupConfig.swift; sourceTree = "<group>"; };
+		DE96ECB6C7870211276AEFB2 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		E274A771CCAF47297B99F463 /* JumpGameStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGameStateTests.swift; sourceTree = "<group>"; };
+		E9660FCCC8BA60447837C00D /* EkocciWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EkocciWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A04BB003BCB47FD0FAD7F4 /* PetStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStoreTests.swift; sourceTree = "<group>"; };
+		F5A762017302B2F6EDF637FE /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		F5F434F2070A9CCAE6620F47 /* GameEnginePerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEnginePerformanceTests.swift; sourceTree = "<group>"; };
+		F600F62E8094B221C9668567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F8966C541482BDE1FFFDC6C7 /* ActiveEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveEffect.swift; sourceTree = "<group>"; };
+		FF794EB921000E026331117B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		12A5BD23D8C46FE6696C8D7E = {
+			isa = PBXGroup;
+			children = (
+				D8771D498264A94908E2EE2A /* EkocciPhone */,
+				70E49954386CCA92C97D1316 /* EkocciWatch */,
+				87EA9D13B96B3FFD67571019 /* EkocciWatchWidget */,
+				CC09E157150DBB52F3096439 /* Shared */,
+				21FF8464433547FEF6D95E5D /* SharedTests */,
+				AFA3632800B6DD5166C68F6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13669851DC0B0E266BA693E5 /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SpriteKit;
+			sourceTree = "<group>";
+		};
+		1F8FC92FDB0A7506EE4846F5 /* Haptics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Haptics;
+			sourceTree = "<group>";
+		};
+		21FF8464433547FEF6D95E5D /* SharedTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AD29EB1905E49F505DEA783 /* CharacterRegistryTests.swift */,
+				8A0B5C9ADABA72F24FF9DC9E /* ConnectivityMessageTests.swift */,
+				C21B8DB967381AEDDFCCA33F /* DiscoveryStoreTests.swift */,
+				3E3A3DC711D09481706FCF7F /* GameEngineCareMissTests.swift */,
+				C985F584B90BB157BA5D0A2F /* GameEngineDeathTests.swift */,
+				632A9CABFD9AF00615DCC39B /* GameEngineDecayTests.swift */,
+				BAD2633FC17DD430FF8213D4 /* GameEngineEvolutionTests.swift */,
+				A51BEF6A0365DC2E8564C18E /* GameEnginePauseTests.swift */,
+				F5F434F2070A9CCAE6620F47 /* GameEnginePerformanceTests.swift */,
+				8171C59ADCB2A6112E6D3022 /* GameEngineTests.swift */,
+				42177505CEFB6F69CF50CA0C /* HiddenStatsTests.swift */,
+				E274A771CCAF47297B99F463 /* JumpGameStateTests.swift */,
+				337BB87FDA3F946461A4B9E0 /* MiniGameTypesTests.swift */,
+				760EA37C6CC713BA96DD28DF /* NotificationManagerTests.swift */,
+				C101AA10C9771FCF2F80C0BF /* PetCloudSerializerTests.swift */,
+				79496D8F4282F98A60F6B96C /* PetLifecycleE2ETests.swift */,
+				3839BD0A7F11DF36F3A88E3A /* PetModelTests.swift */,
+				2B69AFB71CF4FC645492A03F /* PetSnapshotTests.swift */,
+				58CD43D75951F416CFE5EAA7 /* PetStatsTests.swift */,
+				F3A04BB003BCB47FD0FAD7F4 /* PetStoreTests.swift */,
+				A4D0124E0892592DA10B89AC /* PetTimelineProviderTests.swift */,
+				D0C2ED62FBEF297E1C8146D1 /* SettingsStoreTests.swift */,
+				8991C7F58E80992356BD26F0 /* ShopItemTests.swift */,
+				7E71914F962E034BEA21B68A /* ShopStoreTests.swift */,
+				CC0C5D84F94DA7B0B493C2C3 /* SpriteMappingTests.swift */,
+				04C423E2E404F6FA5E2DACB6 /* TimeManagerTests.swift */,
+			);
+			name = SharedTests;
+			path = Tests/SharedTests;
+			sourceTree = "<group>";
+		};
+		4C9618D46DFF8CA5CF81EABF /* MiniGames */ = {
+			isa = PBXGroup;
+			children = (
+				8CE64EF632F677B5950C6E8C /* HighOrLowGameView.swift */,
+				40B5E8466F487C83819B6500 /* JumpGameView.swift */,
+				55FE2E1736D828B4D3966B6C /* LeftOrRightGameView.swift */,
+				20DA60BE7CA990AEE53D30F7 /* MiniGameSelectionView.swift */,
+			);
+			path = MiniGames;
+			sourceTree = "<group>";
+		};
+		6005F8D88F1A675243BE5C2A /* Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				1B4D6562C045E95460C1C95C /* ConnectivityMessage.swift */,
+			);
+			path = Connectivity;
+			sourceTree = "<group>";
+		};
+		70E49954386CCA92C97D1316 /* EkocciWatch */ = {
+			isa = PBXGroup;
+			children = (
+				1F8FC92FDB0A7506EE4846F5 /* Haptics */,
+				13669851DC0B0E266BA693E5 /* SpriteKit */,
+				E5DB1282C4A84D8DF180C8D9 /* Views */,
+				70AEAABC79E67345C6BD58D7 /* EkocciWatchApp.swift */,
+				7D489DE102CD63F9CD03D351 /* GameManager.swift */,
+				F600F62E8094B221C9668567 /* Info.plist */,
+				81C94A741DD59AB711072860 /* WatchConnectivityManager.swift */,
+			);
+			path = EkocciWatch;
+			sourceTree = "<group>";
+		};
+		87EA9D13B96B3FFD67571019 /* EkocciWatchWidget */ = {
+			isa = PBXGroup;
+			children = (
+				7806CBC696D37360A6325F19 /* ComplicationViews.swift */,
+				8F042BADF6371AE4AF580AF2 /* EkocciWidget.swift */,
+				00281954F71C4D899AA6AC08 /* PetTimelineProvider.swift */,
+			);
+			path = EkocciWatchWidget;
+			sourceTree = "<group>";
+		};
+		8C81DE1908CBC3A83EAC8BCB /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				CF7F2B9D43A3CC3BB2931EEC /* CloudKitSyncManager.swift */,
+				83595271387CE0A2399662EE /* DiscoveryStore.swift */,
+				5594A803BD144997E2AB513A /* PetCloudSerializer.swift */,
+				C322F3C78F686B3399631033 /* PetStore.swift */,
+				8C34E11BDD7BA13F31AFFA0D /* SettingsStore.swift */,
+				513E10E094EB9FE4A9EEC1AA /* ShopStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		A64C6AB85C3C5860583334A5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				DD1D18E304833E0B70E2A502 /* AppGroupConfig.swift */,
+				145F7C5DE8A031D1FA595C4B /* GameConfig.swift */,
+				275989F102FC81663782B360 /* HapticPatterns.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		AFA3632800B6DD5166C68F6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFDF067D9DCFCDF82F90C539 /* EkocciPhone.app */,
+				770E167276FC9CB41CC35635 /* EkocciTests.xctest */,
+				E9660FCCC8BA60447837C00D /* EkocciWatch.app */,
+				1A8B26F381DEF66BDF7C00F2 /* EkocciWatchWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC09E157150DBB52F3096439 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6005F8D88F1A675243BE5C2A /* Connectivity */,
+				A64C6AB85C3C5860583334A5 /* Constants */,
+				CCE2AEF5E1679F7C4F1F81CA /* Engine */,
+				D34859356CA3573B866746A0 /* Models */,
+				8C81DE1908CBC3A83EAC8BCB /* Persistence */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CCE2AEF5E1679F7C4F1F81CA /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				34E9F046FD3B6A55CB00E5B0 /* BackgroundRefreshScheduler.swift */,
+				D2F472481E65BBE39B53CEB6 /* EvolutionEngine.swift */,
+				DE96ECB6C7870211276AEFB2 /* GameEngine.swift */,
+				88BEAE7914EBCB93E3C30871 /* NotificationManager.swift */,
+				8BC061F86FDA6556557E411D /* PetTimelineProviderLogic.swift */,
+				D2043F10D7B6D2E950CBDCDA /* SoundManager.swift */,
+				8CC1CCA74C12F64091E6913D /* TimeManager.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		D34859356CA3573B866746A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F8966C541482BDE1FFFDC6C7 /* ActiveEffect.swift */,
+				22B2B0982AD2B4FEC0F3F09C /* CareAction.swift */,
+				B3CAB09AEBBF38C9B3628384 /* CharacterDefinition.swift */,
+				1CCEA457BAF5ED181EFB8962 /* CharacterRegistry.swift */,
+				88ED2054A62496D83C7B6221 /* EvolutionCondition.swift */,
+				4429EA4A553A3A9EE0B689D4 /* HiddenStats.swift */,
+				7CCC281868242E6794AE9783 /* JumpGameState.swift */,
+				0B4ACC1F1007B4E5B04A8A16 /* LifeStage.swift */,
+				0C00FE1C66553126C8A5580C /* MiniGameTypes.swift */,
+				01E206E11356890AD5005DC1 /* Pet.swift */,
+				A1AE7468C72C22EC9083D809 /* PetSnapshot.swift */,
+				977BFFB038C1DE35B6887248 /* PetStats.swift */,
+				B3630304574F828BEF9D616D /* ShopItem.swift */,
+				46B252E3DCB41DA2E688270C /* SpriteMapping.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D8771D498264A94908E2EE2A /* EkocciPhone */ = {
+			isa = PBXGroup;
+			children = (
+				E2D9EC40CCE0F88663557190 /* Views */,
+				5525BCE1D21879F06D1F0D4D /* EkocciPhoneApp.swift */,
+				74240D9CCA27C81C8108D195 /* PhoneConnectivityManager.swift */,
+				B589DFE3CFA8EED2E960567A /* PhoneGameManager.swift */,
+			);
+			path = EkocciPhone;
+			sourceTree = "<group>";
+		};
+		E2D9EC40CCE0F88663557190 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5A762017302B2F6EDF637FE /* CharacterDetailView.swift */,
+				CAA188704DA1761B5DCF8A0C /* DashboardView.swift */,
+				01DE9C7088785B435D78036F /* EncyclopediaView.swift */,
+				0F25691A9B1007EC623B7CDB /* FamilyTreeView.swift */,
+				FF794EB921000E026331117B /* SettingsView.swift */,
+				C751018CB5AADEA0AC76DB2C /* ShopView.swift */,
+				67211925623FBEB8F415B679 /* TabRootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5DB1282C4A84D8DF180C8D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C9618D46DFF8CA5CF81EABF /* MiniGames */,
+				8C9DC0A05C268D4A89800915 /* ContentView.swift */,
+				A94743A561A75330C3D27FB4 /* DeathView.swift */,
+				8905762FB1C205583AC3CE92 /* MainPetView.swift */,
+				209F1C92BC31ADB85F5E3A4B /* MenuView.swift */,
+				A8BB402945B847CD70446144 /* PetSpriteView.swift */,
+				792D212ABDC23F579850C2F5 /* StatsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C853648D9A84A82B6B78E0F /* EkocciWatchWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88CF1131AFCE8B83057822F8 /* Build configuration list for PBXNativeTarget "EkocciWatchWidget" */;
+			buildPhases = (
+				E35AA6089E72E18C1CF4657C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E4B49DAFAE1169BE2D82348 /* PBXTargetDependency */,
+			);
+			name = EkocciWatchWidget;
+			packageProductDependencies = (
+			);
+			productName = EkocciWatchWidget;
+			productReference = 1A8B26F381DEF66BDF7C00F2 /* EkocciWatchWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4CDE9B52CDCE316CAF6A7272 /* EkocciPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C6924F63A0AD16C87F396E /* Build configuration list for PBXNativeTarget "EkocciPhone" */;
+			buildPhases = (
+				C0CAAD7BE18594FD9E069D8D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EkocciPhone;
+			packageProductDependencies = (
+			);
+			productName = EkocciPhone;
+			productReference = CFDF067D9DCFCDF82F90C539 /* EkocciPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4349593A56D4FC87CA06F3E /* EkocciWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 062DF6EBABE57344139EB610 /* Build configuration list for PBXNativeTarget "EkocciWatch" */;
+			buildPhases = (
+				F9F08D32559E1FADD5B9BC4E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EkocciWatch;
+			packageProductDependencies = (
+			);
+			productName = EkocciWatch;
+			productReference = E9660FCCC8BA60447837C00D /* EkocciWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1143F9CE27F99EFF055BE8C /* EkocciTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9852D0BFA556B14DAE99EB24 /* Build configuration list for PBXNativeTarget "EkocciTests" */;
+			buildPhases = (
+				EF2B8FCABD2DD1BE6692117A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EkocciTests;
+			packageProductDependencies = (
+			);
+			productName = EkocciTests;
+			productReference = 770E167276FC9CB41CC35635 /* EkocciTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B79ED2D549D65644F806EF22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = AC4D0347B044653D00FB858F /* Build configuration list for PBXProject "ekocci" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 12A5BD23D8C46FE6696C8D7E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AFA3632800B6DD5166C68F6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CDE9B52CDCE316CAF6A7272 /* EkocciPhone */,
+				F1143F9CE27F99EFF055BE8C /* EkocciTests */,
+				E4349593A56D4FC87CA06F3E /* EkocciWatch */,
+				2C853648D9A84A82B6B78E0F /* EkocciWatchWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0CAAD7BE18594FD9E069D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E9B05126A3C76FAD796469 /* ActiveEffect.swift in Sources */,
+				E47B94FD587A8293B9DF59CE /* AppGroupConfig.swift in Sources */,
+				C7736B97259C6CBD820DAB03 /* BackgroundRefreshScheduler.swift in Sources */,
+				3F4EA652D0ED381711A6C34F /* CareAction.swift in Sources */,
+				F19D44287EFE84B15BAED8D3 /* CharacterDefinition.swift in Sources */,
+				288666E5FE35284044BD0CBD /* CharacterDetailView.swift in Sources */,
+				2924CBEC250C1820CF75FE29 /* CharacterRegistry.swift in Sources */,
+				EB02DA8DE683AB1A4F9BC971 /* CloudKitSyncManager.swift in Sources */,
+				33FE2913C23E686F83509EB9 /* ConnectivityMessage.swift in Sources */,
+				CDEAB9269824EB7E9E68AF1D /* DashboardView.swift in Sources */,
+				4E63EF388B621A2C8D582A13 /* DiscoveryStore.swift in Sources */,
+				DE5B0B5BE8A329BC2DAAA4B8 /* EkocciPhoneApp.swift in Sources */,
+				F63BFB8F17A479D4154AD1F2 /* EncyclopediaView.swift in Sources */,
+				D868227BD34BE2745169F1C6 /* EvolutionCondition.swift in Sources */,
+				D8B8AFA25D86C24794452D8C /* EvolutionEngine.swift in Sources */,
+				7E734ECF99250AEAA3D8FB34 /* FamilyTreeView.swift in Sources */,
+				C06C2ED97BE8F12FD1BF0385 /* GameConfig.swift in Sources */,
+				9553237A7B88CA3B08C94D06 /* GameEngine.swift in Sources */,
+				8E87AD77FA4F408649FBC618 /* HapticPatterns.swift in Sources */,
+				4C60E9A1C1FC55C2124C556E /* HiddenStats.swift in Sources */,
+				3FE4B8D08BC936A11EDB5E72 /* JumpGameState.swift in Sources */,
+				D2F377A658B5B61BE0A58901 /* LifeStage.swift in Sources */,
+				E82E380FB86D3D6E1029A94E /* MiniGameTypes.swift in Sources */,
+				62C43BD70C0943AFA7463F80 /* NotificationManager.swift in Sources */,
+				9356585B7D373DD418FB81F6 /* Pet.swift in Sources */,
+				F305EC9AAA85CE89FE3F61EB /* PetCloudSerializer.swift in Sources */,
+				B6D38DD5805C97DCA5ECB159 /* PetSnapshot.swift in Sources */,
+				B052C4530EAADEA4067D8E33 /* PetStats.swift in Sources */,
+				6C683A9D7F9F4B2AEDF188A2 /* PetStore.swift in Sources */,
+				4C99CB888314DAA035E623BA /* PetTimelineProviderLogic.swift in Sources */,
+				176AC795CE589A0A544BEA21 /* PhoneConnectivityManager.swift in Sources */,
+				E5501D07E121F07AE77C1616 /* PhoneGameManager.swift in Sources */,
+				64414F6A700627E7E9D4619B /* SettingsStore.swift in Sources */,
+				D16A4DA3C95669BC799C5C6B /* SettingsView.swift in Sources */,
+				882BF37A009A63B7A51B5E59 /* ShopItem.swift in Sources */,
+				C6BD03F4B36B02FFDFB78B6C /* ShopStore.swift in Sources */,
+				98C78DFF1586BCDE3DAF448C /* ShopView.swift in Sources */,
+				F2A8F1D850B1044AE6A39552 /* SoundManager.swift in Sources */,
+				D37D0102007B1818FF8199B8 /* SpriteMapping.swift in Sources */,
+				255D95DE589FEBB71087E06D /* TabRootView.swift in Sources */,
+				116D5501E25B0AFCE5EFEE3A /* TimeManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35AA6089E72E18C1CF4657C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111E1E3F5B64506EA5572640 /* ActiveEffect.swift in Sources */,
+				05F9554D58E1503742B1B04F /* AppGroupConfig.swift in Sources */,
+				03DC99347E2AAA817675615D /* BackgroundRefreshScheduler.swift in Sources */,
+				D1A59B072B3963B2EE3B3015 /* CareAction.swift in Sources */,
+				EA778ADC25F052302C221914 /* CharacterDefinition.swift in Sources */,
+				5891F425038DB04877E751EF /* CharacterRegistry.swift in Sources */,
+				8C182C49A72AE0EEB3E9AA6D /* CloudKitSyncManager.swift in Sources */,
+				0EA1099C6F0680A086F68121 /* ComplicationViews.swift in Sources */,
+				0DB995510EFC57F19AA539AC /* ConnectivityMessage.swift in Sources */,
+				4716B8B07568AA896667C7CB /* DiscoveryStore.swift in Sources */,
+				CA696D9B2DA00F16358E1538 /* EkocciWidget.swift in Sources */,
+				B1537003A14BCAC39F225D32 /* EvolutionCondition.swift in Sources */,
+				116FF8E038C1B8A8C76372F2 /* EvolutionEngine.swift in Sources */,
+				A9D1FD9C527D500A52E90AE3 /* GameConfig.swift in Sources */,
+				EBB34AD545B986F6CE69D459 /* GameEngine.swift in Sources */,
+				1A01C4601F6DFE13C68EBA69 /* HapticPatterns.swift in Sources */,
+				25CEC62A0AA0793907B09207 /* HiddenStats.swift in Sources */,
+				4255EE45C31BD8D602248393 /* JumpGameState.swift in Sources */,
+				6EE666A866B85A7AB9E5F304 /* LifeStage.swift in Sources */,
+				47BFAD2EA1A1CC5AE775E18C /* MiniGameTypes.swift in Sources */,
+				93940A2F4AB8BBBA74CCB3C1 /* NotificationManager.swift in Sources */,
+				BB3D3DB5706B92990413B410 /* Pet.swift in Sources */,
+				D8E8B0BE8766886FE5D47DC5 /* PetCloudSerializer.swift in Sources */,
+				1EDB8BB18DB0AF8224D0BCA8 /* PetSnapshot.swift in Sources */,
+				D91305C213D689DFAD987922 /* PetStats.swift in Sources */,
+				FB53A1956243EC948B1F5643 /* PetStore.swift in Sources */,
+				431E2B53763E305FE44CB309 /* PetTimelineProvider.swift in Sources */,
+				03D0AB62B19CB8B3C8059886 /* PetTimelineProviderLogic.swift in Sources */,
+				E8B6CB998166426DD890B0AB /* SettingsStore.swift in Sources */,
+				C3821EF5C916C3990BD91E70 /* ShopItem.swift in Sources */,
+				7616B0215DE719925F824484 /* ShopStore.swift in Sources */,
+				3FF456D1B923B646894681BF /* SoundManager.swift in Sources */,
+				3F1E2CEFD4DDBB4D26731AE9 /* SpriteMapping.swift in Sources */,
+				DD38897BDB6236645BF72D58 /* TimeManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2B8FCABD2DD1BE6692117A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AE640B5EDB91EB3ECD1097 /* ActiveEffect.swift in Sources */,
+				324FB917188AF5E2D229B02B /* AppGroupConfig.swift in Sources */,
+				10AF008D86A88F1BFF95FF1D /* BackgroundRefreshScheduler.swift in Sources */,
+				F3EA18E3170E3FF61489107A /* CareAction.swift in Sources */,
+				C2F57F68292726C67B1C266B /* CharacterDefinition.swift in Sources */,
+				089337EC64EFFEB053C53D7B /* CharacterRegistry.swift in Sources */,
+				118E8EE31845A03A8DCE33B4 /* CharacterRegistryTests.swift in Sources */,
+				86D7D1E2469B8151B7E1036E /* CloudKitSyncManager.swift in Sources */,
+				20E56B2A7B1A2F65158CE4DC /* ConnectivityMessage.swift in Sources */,
+				8FDFCF5447CE3381C9EF5318 /* ConnectivityMessageTests.swift in Sources */,
+				0FEDD007B83A1E6FECF4918B /* DiscoveryStore.swift in Sources */,
+				7E93B5D34C80D9A192FE528A /* DiscoveryStoreTests.swift in Sources */,
+				A041A7C1826840E5B7438BCF /* EvolutionCondition.swift in Sources */,
+				BE57828BC118F2DA8FAFAD65 /* EvolutionEngine.swift in Sources */,
+				929C322FED26C27B9F7FF78B /* GameConfig.swift in Sources */,
+				90C6FF23186ED17A54D696F7 /* GameEngine.swift in Sources */,
+				A7694F5949B9BC4C65B60387 /* GameEngineCareMissTests.swift in Sources */,
+				AE870DD6F565497EBE4CEC39 /* GameEngineDeathTests.swift in Sources */,
+				D008EBBFC81C726223B4237C /* GameEngineDecayTests.swift in Sources */,
+				204CF81363D2B749A81CFDC1 /* GameEngineEvolutionTests.swift in Sources */,
+				9797111EC99AF52B9C907928 /* GameEnginePauseTests.swift in Sources */,
+				66DEEC341B043AC3CEA5CBB4 /* GameEnginePerformanceTests.swift in Sources */,
+				FDD758233F9DD2409E05E8E9 /* GameEngineTests.swift in Sources */,
+				CD3D6A8FDF27525ADD9F3E49 /* HapticPatterns.swift in Sources */,
+				B0943B1FD097E0E48DDFECD7 /* HiddenStats.swift in Sources */,
+				EDF99D865D539139B530FA41 /* HiddenStatsTests.swift in Sources */,
+				9EDB8C880EB72A18DAD134A4 /* JumpGameState.swift in Sources */,
+				49FE5EF4A6B6A03426D4E317 /* JumpGameStateTests.swift in Sources */,
+				4ACFF598B8ACDA9AC0EC98B7 /* LifeStage.swift in Sources */,
+				A358B7D8BB55617D45165687 /* MiniGameTypes.swift in Sources */,
+				67104EE3B443E7F6CF7392D6 /* MiniGameTypesTests.swift in Sources */,
+				B1042CC9E299B96A762E3490 /* NotificationManager.swift in Sources */,
+				8CEA06BDE349B1D20BFB7ADE /* NotificationManagerTests.swift in Sources */,
+				D53805A55F1EEB1B39E014CC /* Pet.swift in Sources */,
+				768A93B2ADBBA1B45FB94739 /* PetCloudSerializer.swift in Sources */,
+				809B33291B830DB3B74CCF5E /* PetCloudSerializerTests.swift in Sources */,
+				16C380F4DEA858CA0B133230 /* PetLifecycleE2ETests.swift in Sources */,
+				8C70A081D0C24D979F3C43A7 /* PetModelTests.swift in Sources */,
+				8A746F2904983E127FF44599 /* PetSnapshot.swift in Sources */,
+				EDCC5D05CB6588BE1868229F /* PetSnapshotTests.swift in Sources */,
+				D85CA0BFD3CA0A8CD106762C /* PetStats.swift in Sources */,
+				3A902CA216565A2972E686A5 /* PetStatsTests.swift in Sources */,
+				91D641315167D05B43429C6A /* PetStore.swift in Sources */,
+				05E32CB9C41419304AAE4DBD /* PetStoreTests.swift in Sources */,
+				5A1EE13D102C58630AEF8379 /* PetTimelineProviderLogic.swift in Sources */,
+				7D4B28B823D53CB20B553611 /* PetTimelineProviderTests.swift in Sources */,
+				B50B125681879C98DDE5CCA8 /* SettingsStore.swift in Sources */,
+				B871CD8E76D9F5F8147E2204 /* SettingsStoreTests.swift in Sources */,
+				07FF7ADE80797DF00A8330BB /* ShopItem.swift in Sources */,
+				84E227307FFF77D1A1D47C03 /* ShopItemTests.swift in Sources */,
+				544C6F8D315EFEAF675012E3 /* ShopStore.swift in Sources */,
+				A3D2A55ED77CDAB6C70E62D1 /* ShopStoreTests.swift in Sources */,
+				C4843CCA474471E946FD9CF7 /* SoundManager.swift in Sources */,
+				DA93D247B6F7EBB7969B6EB2 /* SpriteMapping.swift in Sources */,
+				A800740C96E203D4825233EA /* SpriteMappingTests.swift in Sources */,
+				DE901AC5287DBD526D7B19D2 /* TimeManager.swift in Sources */,
+				27813068E2033084D7230F22 /* TimeManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F08D32559E1FADD5B9BC4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FABBBAB8B3CBED7AB83A179 /* ActiveEffect.swift in Sources */,
+				EF8EE282288E2346F73AED75 /* AppGroupConfig.swift in Sources */,
+				8090CCA48A363F7ADB509BC2 /* BackgroundRefreshScheduler.swift in Sources */,
+				59A5E3352B45678418B8B3BA /* CareAction.swift in Sources */,
+				AA3F43AB3B3EB5C275F91576 /* CharacterDefinition.swift in Sources */,
+				A9E0D27B8564E995D8D3506E /* CharacterRegistry.swift in Sources */,
+				52D7993F39A1B08AD7A1B034 /* CloudKitSyncManager.swift in Sources */,
+				EB174FE1515FBC60A2ECF7A0 /* ConnectivityMessage.swift in Sources */,
+				131257E80904310CAC7A6C9C /* ContentView.swift in Sources */,
+				F205C7C10EAF0B7EB9C7588C /* DeathView.swift in Sources */,
+				435932CF7D53A19FE36EC6CC /* DiscoveryStore.swift in Sources */,
+				9A381F30D2C1DF97B9DF3DBB /* EkocciWatchApp.swift in Sources */,
+				45A88492E0932D89E4112BB3 /* EvolutionCondition.swift in Sources */,
+				39A4F5EB55893E2F52A0CC57 /* EvolutionEngine.swift in Sources */,
+				4C2906CE799C75E8991D821E /* GameConfig.swift in Sources */,
+				7B96F56FB21BE2B6B9353E50 /* GameEngine.swift in Sources */,
+				61923B682353EA5F8F196644 /* GameManager.swift in Sources */,
+				93E6A294293C837195EEBBFD /* HapticPatterns.swift in Sources */,
+				D423C2F24D0C3D5D91B8A177 /* HiddenStats.swift in Sources */,
+				E5B9116ABD7E979E1A499F17 /* HighOrLowGameView.swift in Sources */,
+				3EA06E6F38CBBA9C210BC276 /* JumpGameState.swift in Sources */,
+				568CE2CFEDB1EBB9CCF5BB9D /* JumpGameView.swift in Sources */,
+				B4FD60A59AE12A02177A640D /* LeftOrRightGameView.swift in Sources */,
+				6CD076B458BABE6C0AB369A4 /* LifeStage.swift in Sources */,
+				EBE3802BE4ACA8A88E2FAC97 /* MainPetView.swift in Sources */,
+				684FB51CF78DFF9BCD1AAE5A /* MenuView.swift in Sources */,
+				AFC31ED9280608EB886484A3 /* MiniGameSelectionView.swift in Sources */,
+				5FA36624659258947D52A00C /* MiniGameTypes.swift in Sources */,
+				8EB95346C29A0F06BE40B161 /* NotificationManager.swift in Sources */,
+				B85BBA1EAF6A75395A2FE745 /* Pet.swift in Sources */,
+				2B9CF1593A72EA7AD2DE5EEF /* PetCloudSerializer.swift in Sources */,
+				B8E199C0B4415F7FA64094B7 /* PetSnapshot.swift in Sources */,
+				45BE896D28D754C1801FCAB6 /* PetSpriteView.swift in Sources */,
+				159F7580CA9977E205E2D536 /* PetStats.swift in Sources */,
+				872C39C8DC84464001DD72C6 /* PetStore.swift in Sources */,
+				D5321D50003C466FF4A526E1 /* PetTimelineProviderLogic.swift in Sources */,
+				2095C3FA6628D7D3509B959B /* SettingsStore.swift in Sources */,
+				E99012074FD67C58B9007A8B /* ShopItem.swift in Sources */,
+				C19956F815475EC88A296935 /* ShopStore.swift in Sources */,
+				AC99751297799CC2F7E8E760 /* SoundManager.swift in Sources */,
+				BA2F5CADC89B9F54A4870F7E /* SpriteMapping.swift in Sources */,
+				904F776B01967BB3AB569E00 /* StatsView.swift in Sources */,
+				9452110DC2968A43D55D9D77 /* TimeManager.swift in Sources */,
+				5E0799D04B9C7D6A7AE57F88 /* WatchConnectivityManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E4B49DAFAE1169BE2D82348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4349593A56D4FC87CA06F3E /* EkocciWatch */;
+			targetProxy = A39CEDEDC0D7C2DD37A81467 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C0CA5C836D783B7F2597AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EkocciWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekocci.watch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		5B89FF55F98E08EE35725435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_VALUES = "[\"NSExtension\": [\"NSExtensionPointIdentifier\": \"com.apple.widgetkit-extension\"]]";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekocci.watch.widget;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		5E4E2B3D5E2D7ABCAAB2151A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_VALUES = "[\"UILaunchScreen\": [:]]";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekocci.phone;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		639A96860527ACDC7BCB579F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		69BA5250DD666B925FC6A7DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekocci.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82A360B17E6ACD2BB12752FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_VALUES = "[\"NSExtension\": [\"NSExtensionPointIdentifier\": \"com.apple.widgetkit-extension\"]]";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekocci.watch.widget;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		9F1700BF275C0055205DD7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		B02EA6FED58E950D41C8B526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_VALUES = "[\"UILaunchScreen\": [:]]";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekocci.phone;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C145F875CC4D0664FFF22B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekocci.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5D18F47180893C1619C780D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EkocciWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekocci.watch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		062DF6EBABE57344139EB610 /* Build configuration list for PBXNativeTarget "EkocciWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C0CA5C836D783B7F2597AD2 /* Debug */,
+				E5D18F47180893C1619C780D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		64C6924F63A0AD16C87F396E /* Build configuration list for PBXNativeTarget "EkocciPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02EA6FED58E950D41C8B526 /* Debug */,
+				5E4E2B3D5E2D7ABCAAB2151A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		88CF1131AFCE8B83057822F8 /* Build configuration list for PBXNativeTarget "EkocciWatchWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B89FF55F98E08EE35725435 /* Debug */,
+				82A360B17E6ACD2BB12752FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9852D0BFA556B14DAE99EB24 /* Build configuration list for PBXNativeTarget "EkocciTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C145F875CC4D0664FFF22B2E /* Debug */,
+				69BA5250DD666B925FC6A7DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC4D0347B044653D00FB858F /* Build configuration list for PBXProject "ekocci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1700BF275C0055205DD7A0 /* Debug */,
+				639A96860527ACDC7BCB579F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B79ED2D549D65644F806EF22 /* Project object */;
+}
