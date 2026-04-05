@@ -9,7 +9,7 @@ lang: ja
 
 <div class="pixel-divider"></div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## メイン画面
 
@@ -24,7 +24,7 @@ lang: ja
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## お世話
 
@@ -68,7 +68,7 @@ lang: ja
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## ミニゲーム
 
@@ -100,7 +100,7 @@ lang: ja
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## ステータス
 
@@ -118,7 +118,7 @@ lang: ja
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## 睡眠スケジュール
 
@@ -135,7 +135,7 @@ lang: ja
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## 呼び出しと猶予時間
 
@@ -152,7 +152,7 @@ lang: ja
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## おやすみモード
 

@@ -9,7 +9,7 @@ lang: en
 
 <div class="pixel-divider"></div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## How Evolution Works
 
@@ -35,7 +35,7 @@ The most important hidden parameter. Counted when:
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Evolution Tiers
 
@@ -50,7 +50,7 @@ Care misses and discipline meter determine evolution tier.
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Evolution Tree
 
@@ -71,7 +71,7 @@ Care misses and discipline meter determine evolution tier.
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Raising Tips
 
@@ -94,7 +94,7 @@ Care misses and discipline meter determine evolution tier.
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Lifespan
 

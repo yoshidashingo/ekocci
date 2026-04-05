@@ -9,7 +9,7 @@ lang: ja
 
 <div class="pixel-divider"></div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## 進化の仕組み
 
@@ -35,7 +35,7 @@ lang: ja
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## 進化ティア
 
@@ -50,7 +50,7 @@ lang: ja
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## 進化ツリー
 
@@ -71,7 +71,7 @@ lang: ja
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## 育成ティップス
 
@@ -94,7 +94,7 @@ lang: ja
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## 寿命
 

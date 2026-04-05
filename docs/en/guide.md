@@ -9,7 +9,7 @@ lang: en
 
 <div class="pixel-divider"></div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Main Screen
 
@@ -24,7 +24,7 @@ Tap to open the menu and choose a care action.
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Care Actions
 
@@ -68,7 +68,7 @@ When your pet falls asleep, ZZZ appears. You must turn off the lights within 15 
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Mini Games
 
@@ -100,7 +100,7 @@ Tap to jump over obstacles with good timing. Earn Eco Points too!
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Status
 
@@ -118,7 +118,7 @@ Tap to jump over obstacles with good timing. Earn Eco Points too!
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Sleep Schedule
 
@@ -135,7 +135,7 @@ During sleep, no poop is produced and status decay rate drops to ~50%.
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Alerts & Grace Period
 
@@ -152,7 +152,7 @@ Your pet will notify you when it needs care. You have **about 15 minutes** to re
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 ## Pause Mode
 
