@@ -1,0 +1,21 @@
+<header class="site-header">
+  <nav class="nav-container">
+    <a href="{{ '/' | relative_url }}" class="site-logo">
+      <span class="logo-text">ekocci</span>
+    </a>
+    <ul class="nav-links">
+      {% if page.lang == "en" %}
+        <li><a href="{{ '/en/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/en/guide' | relative_url }}">Guide</a></li>
+        <li><a href="{{ '/en/evolution' | relative_url }}">Evolution</a></li>
+        <li><a href="{{ '/' | relative_url }}" class="lang-switch" title="日本語">🇯🇵</a></li>
+      {% else %}
+        <li><a href="{{ '/' | relative_url }}">ホーム</a></li>
+        <li><a href="{{ '/guide' | relative_url }}">遊び方</a></li>
+        <li><a href="{{ '/evolution' | relative_url }}">進化図鑑</a></li>
+        <li><a href="{{ '/en/' | relative_url }}" class="lang-switch" title="English">🇬🇧</a></li>
+      {% endif %}
+    </ul>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+  </nav>
+</header>
