@@ -1,0 +1,54 @@
+# Xcode
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+
+# Xcode Scheme
+*.xcscheme
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# OS
+.DS_Store
+*.swp
+*~
+
+# IDE
+.idea/
+*.xcworkspace/contents.xcworkspacedata
+
+# Archives
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Provisioning
+*.mobileprovision
+*.provisionprofile
+
+# Secrets
+.env
+.env.*
+*.pem
+*.p12
+
+# Oh-My-ClaudeCode
+.omc/

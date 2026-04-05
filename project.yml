@@ -1,0 +1,77 @@
+name: ekocci
+options:
+  bundleIdPrefix: com.ekocci
+  deploymentTarget:
+    iOS: "26.0"
+    watchOS: "26.0"
+  xcodeVersion: "26.0"
+  defaultConfig: Debug
+  groupSortPosition: top
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    ENABLE_USER_SCRIPT_SANDBOXING: false
+
+targets:
+  # watchOS App - Shared コード直接含む
+  EkocciWatch:
+    type: application
+    platform: watchOS
+    sources:
+      - path: EkocciWatch
+      - path: Shared
+    info:
+      path: EkocciWatch/Info.plist
+      properties:
+        WKApplication: true
+        WKWatchOnly: true
+        CFBundleDisplayName: エコちっち
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ekocci.watch
+        GENERATE_INFOPLIST_FILE: NO
+
+  # iOS App - Shared コード直接含む
+  EkocciPhone:
+    type: application
+    platform: iOS
+    sources:
+      - path: EkocciPhone
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ekocci.phone
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_VALUES:
+          UILaunchScreen: {}
+
+  # watchOS Widget Extension
+  EkocciWatchWidget:
+    type: app-extension
+    platform: watchOS
+    sources:
+      - path: EkocciWatchWidget
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ekocci.watch.widget
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_VALUES:
+          NSExtension:
+            NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    dependencies:
+      - target: EkocciWatch
+
+  # Unit Tests
+  EkocciTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests/SharedTests
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ekocci.tests
+        GENERATE_INFOPLIST_FILE: YES
