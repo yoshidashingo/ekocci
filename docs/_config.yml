@@ -1,0 +1,22 @@
+title: "ekocci - エコちっち"
+description: "Apple Watchで育てるバーチャルペット育成ゲーム"
+url: "https://ekocci.com"
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - superpowers/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      lang: "ja"
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
