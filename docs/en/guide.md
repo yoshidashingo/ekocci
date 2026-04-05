@@ -16,7 +16,7 @@ lang: en
 When you launch the app, your pet appears on screen. The status bar is at the top, and poop icons (if any) appear at the bottom.
 
 <div class="screenshot-container">
-  <img src="{{ '/assets/images/screenshots/main-pet.png' | relative_url }}" alt="Main Screen">
+  <img src="{{ '/assets/images/screenshots/main-pet.svg' | relative_url }}" alt="Main Screen">
   <p class="caption">Main Screen</p>
 </div>
 
@@ -76,15 +76,15 @@ Available from the Child stage onward. Three games to restore happiness and redu
 
 <div class="screenshot-row">
   <div class="screenshot-container">
-    <img src="{{ '/assets/images/screenshots/game-left-right.png' | relative_url }}" alt="Left or Right?">
+    <img src="{{ '/assets/images/screenshots/game-left-right.svg' | relative_url }}" alt="Left or Right?">
     <p class="caption">Left or Right?</p>
   </div>
   <div class="screenshot-container">
-    <img src="{{ '/assets/images/screenshots/game-high-low.png' | relative_url }}" alt="High or Low?">
+    <img src="{{ '/assets/images/screenshots/game-high-low.svg' | relative_url }}" alt="High or Low?">
     <p class="caption">High or Low?</p>
   </div>
   <div class="screenshot-container">
-    <img src="{{ '/assets/images/screenshots/game-jump.png' | relative_url }}" alt="Jump!">
+    <img src="{{ '/assets/images/screenshots/game-jump.svg' | relative_url }}" alt="Jump!">
     <p class="caption">Jump!</p>
   </div>
 </div>
@@ -105,7 +105,7 @@ Tap to jump over obstacles with good timing. Earn Eco Points too!
 ## Status
 
 <div class="screenshot-container">
-  <img src="{{ '/assets/images/screenshots/stats.png' | relative_url }}" alt="Status Screen">
+  <img src="{{ '/assets/images/screenshots/stats.svg' | relative_url }}" alt="Status Screen">
   <p class="caption">Status Screen</p>
 </div>
 

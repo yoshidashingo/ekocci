@@ -16,7 +16,7 @@ lang: ja
 アプリを起動すると、ペットが表示されます。画面上部にはステータスバー、画面下部にうんちアイコン（ある場合）が表示されます。
 
 <div class="screenshot-container">
-  <img src="{{ '/assets/images/screenshots/main-pet.png' | relative_url }}" alt="メイン画面">
+  <img src="{{ '/assets/images/screenshots/main-pet.svg' | relative_url }}" alt="メイン画面">
   <p class="caption">メイン画面</p>
 </div>
 
@@ -76,15 +76,15 @@ lang: ja
 
 <div class="screenshot-row">
   <div class="screenshot-container">
-    <img src="{{ '/assets/images/screenshots/game-left-right.png' | relative_url }}" alt="どっち？">
+    <img src="{{ '/assets/images/screenshots/game-left-right.svg' | relative_url }}" alt="どっち？">
     <p class="caption">どっち？</p>
   </div>
   <div class="screenshot-container">
-    <img src="{{ '/assets/images/screenshots/game-high-low.png' | relative_url }}" alt="おおきい？ちいさい？">
+    <img src="{{ '/assets/images/screenshots/game-high-low.svg' | relative_url }}" alt="おおきい？ちいさい？">
     <p class="caption">おおきい？ちいさい？</p>
   </div>
   <div class="screenshot-container">
-    <img src="{{ '/assets/images/screenshots/game-jump.png' | relative_url }}" alt="ジャンプ！">
+    <img src="{{ '/assets/images/screenshots/game-jump.svg' | relative_url }}" alt="ジャンプ！">
     <p class="caption">ジャンプ！</p>
   </div>
 </div>
@@ -105,7 +105,7 @@ lang: ja
 ## ステータス
 
 <div class="screenshot-container">
-  <img src="{{ '/assets/images/screenshots/stats.png' | relative_url }}" alt="ステータス画面">
+  <img src="{{ '/assets/images/screenshots/stats.svg' | relative_url }}" alt="ステータス画面">
   <p class="caption">ステータス画面</p>
 </div>
 
