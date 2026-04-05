@@ -1,0 +1,372 @@
+/* ===========================
+   ekocci.com — Retro Pixel Style
+   Game Boy inspired palette
+   =========================== */
+
+:root {
+  --bg-dark: #0f380f;
+  --bg-medium: #306230;
+  --text-light: #9bbc0f;
+  --text-bright: #8bac0f;
+  --accent: #9bbc0f;
+  --border-color: #8bac0f;
+  --font-pixel: 'Press Start 2P', monospace;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  font-family: var(--font-body);
+  line-height: 1.8;
+  min-height: 100vh;
+}
+
+/* Pixel font for headings */
+h1, h2, h3, h4 {
+  font-family: var(--font-pixel);
+  color: var(--text-bright);
+  line-height: 1.6;
+}
+
+h1 { font-size: 1.2rem; margin-bottom: 1.5rem; }
+h2 { font-size: 0.9rem; margin: 2rem 0 1rem; }
+h3 { font-size: 0.75rem; margin: 1.5rem 0 0.75rem; }
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Links */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 2px dotted var(--border-color);
+}
+
+a:hover {
+  color: #fff;
+  border-bottom-style: solid;
+}
+
+/* ===========================
+   Header / Navigation
+   =========================== */
+.site-header {
+  border-bottom: 4px solid var(--border-color);
+  padding: 1rem 0;
+  background: var(--bg-medium);
+}
+
+.nav-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-logo {
+  border-bottom: none;
+}
+
+.logo-text {
+  font-family: var(--font-pixel);
+  font-size: 1rem;
+  color: var(--text-bright);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav-links a {
+  font-family: var(--font-pixel);
+  font-size: 0.55rem;
+  border-bottom: none;
+  padding: 0.3rem 0;
+}
+
+.nav-links a:hover {
+  color: #fff;
+  border-bottom: 2px solid var(--accent);
+}
+
+.lang-switch {
+  font-size: 1.2rem !important;
+  font-family: var(--font-body) !important;
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: 2px solid var(--border-color);
+  color: var(--text-light);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+}
+
+/* Mobile nav */
+@media (max-width: 600px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--bg-medium);
+    border-bottom: 4px solid var(--border-color);
+    padding: 1rem;
+    gap: 1rem;
+    z-index: 100;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .site-header {
+    position: relative;
+  }
+}
+
+/* ===========================
+   Footer
+   =========================== */
+.site-footer {
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  border-top: 4px solid var(--border-color);
+  background: var(--bg-medium);
+}
+
+.footer-border {
+  height: 4px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--text-bright) 0px,
+    var(--text-bright) 4px,
+    transparent 4px,
+    transparent 8px
+  );
+  margin-bottom: 1rem;
+}
+
+.footer-text {
+  font-family: var(--font-pixel);
+  font-size: 0.5rem;
+  text-align: center;
+  color: var(--text-light);
+  opacity: 0.7;
+}
+
+/* ===========================
+   Hero Section
+   =========================== */
+.hero {
+  text-align: center;
+  padding: 2rem 0;
+  border-bottom: 4px dashed var(--border-color);
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero .tagline {
+  font-family: var(--font-pixel);
+  font-size: 0.6rem;
+  color: var(--text-light);
+  opacity: 0.8;
+  margin-bottom: 1.5rem;
+}
+
+.hero .concept {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ===========================
+   Feature Cards
+   =========================== */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.feature-card {
+  border: 3px solid var(--border-color);
+  padding: 1.5rem;
+  background: var(--bg-medium);
+  text-align: center;
+}
+
+.feature-card .icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.feature-card p {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+/* ===========================
+   Screenshot Display
+   =========================== */
+.screenshot-container {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.screenshot-container img {
+  max-width: 200px;
+  border: 3px solid var(--border-color);
+  border-radius: 0;
+  image-rendering: auto;
+}
+
+.screenshot-container .caption {
+  font-family: var(--font-pixel);
+  font-size: 0.5rem;
+  margin-top: 0.5rem;
+  color: var(--text-light);
+  opacity: 0.7;
+}
+
+.screenshot-row {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+
+/* ===========================
+   Content Sections
+   =========================== */
+.section {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px dashed var(--border-color);
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.85rem;
+}
+
+th {
+  font-family: var(--font-pixel);
+  font-size: 0.55rem;
+  background: var(--bg-medium);
+  border: 2px solid var(--border-color);
+  padding: 0.75rem 0.5rem;
+  text-align: left;
+}
+
+td {
+  border: 2px solid var(--border-color);
+  padding: 0.75rem 0.5rem;
+}
+
+tr:hover {
+  background: rgba(155, 188, 15, 0.1);
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 1.5rem;
+  margin: 0.75rem 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Code */
+code {
+  font-family: var(--font-pixel);
+  font-size: 0.6rem;
+  background: var(--bg-medium);
+  padding: 0.15rem 0.3rem;
+  border: 1px solid var(--border-color);
+}
+
+/* Pixel divider */
+.pixel-divider {
+  height: 8px;
+  margin: 2rem 0;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--text-bright) 0px,
+    var(--text-bright) 8px,
+    transparent 8px,
+    transparent 16px
+  );
+}
+
+/* ===========================
+   Evolution Tree (ASCII style)
+   =========================== */
+.evolution-tree {
+  font-family: var(--font-pixel);
+  font-size: 0.5rem;
+  line-height: 2;
+  background: var(--bg-medium);
+  border: 3px solid var(--border-color);
+  padding: 1.5rem;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+/* ===========================
+   Responsive
+   =========================== */
+@media (max-width: 480px) {
+  h1 { font-size: 0.9rem; }
+  h2 { font-size: 0.7rem; }
+  .hero h1 { font-size: 1rem; }
+  .features {
+    grid-template-columns: 1fr;
+  }
+}

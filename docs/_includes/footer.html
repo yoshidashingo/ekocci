@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-border"></div>
+    <p class="footer-text">
+      {% if page.lang == "en" %}
+        &copy; {{ 'now' | date: '%Y' }} ekocci. Built with ♥ for Apple Watch.
+      {% else %}
+        &copy; {{ 'now' | date: '%Y' }} ekocci. Apple Watch のための、小さな生き物。
+      {% endif %}
+    </p>
+  </div>
+</footer>
